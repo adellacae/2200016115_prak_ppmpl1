@@ -16,7 +16,7 @@ describe('Pengujian Fungsi Matematika', function() {
  it('seharusnya mengembalikan 0 saat mengurangkan 2 - 2', function() {
  expect(kurang(2, 2)).to.equal(0);
  });
- it('seharusnya mengembalikan -2 saat mengurangkan (-2) - (-2)', function() {
+ it('seharusnya mengembalikan -2 saat mengurangkan (-4) - (-2)', function() {
     expect(kurang(-4, -2)).to.equal(-2);
     });
  it('seharusnya mengembalikan 2 saat membagi 6 / 3', function() {
